@@ -96,6 +96,8 @@ For Java....
 
 Logs should be useful and readable; what's in them can depend on whether they are working or not! Provide options to increase or decrease messages in logs.
 
+For example, for Python in `biotool.py`:
+
 |argument|value|comment|
 |:--|:--|:--|
 |--debug|     loglevel=logging.DEBUG|
