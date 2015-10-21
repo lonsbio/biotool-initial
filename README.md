@@ -25,7 +25,7 @@ This stuff should be easy; it is the actual bioinformatics that is hard.
 
 The road to hell is paved with diagnostic print statements. Logging of informative, warning and error messages really should occur, even if it's only during development or debugging, so begin with simple logging in your template.
 
-A common approach is take have levels that are easy to use, and the location of output files customisable. -v, -vv, -vvv for various levels of verbosity. -q for quiet
+A common approach is take have levels that are easy to use, and the location of output files customisable. Some tools use -v, -vv, -vvv etc for various levels of verbosity. Another approach is to have specific flags for logging levels (see 17.) 
 
 > 12: It's only temporary
 
