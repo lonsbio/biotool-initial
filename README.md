@@ -20,7 +20,7 @@ This stuff should be easy; it is the actual bioinformatics that is hard.
 9. Check that your dependencies are installed
 -  Don’t distribute bare JAR files
 
-# Extra Rules in progress (in order of making them up!)
+# Extra Rules (work in progress, in order of making them up, some will not survive scrutiny!)
 > 11: Log early, log often
 
 The road to hell is paved with diagnostic print statements. Logging of informative, warning and error messages really should occur, even if it's only during development or debugging, so begin with simple logging in your template.
