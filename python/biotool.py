@@ -56,8 +56,7 @@ def main():
 
     parser.add_argument('--logfile', type=str, help='log filename')
     parser.add_argument('-v','--version', action='version', version='%(prog)s 1.0')
-    parser.set_defaults(func=echo)
-
+    
 
     subparsers = parser.add_subparsers(help='subcommands of %(prog)s',                                       title='subcommands')
 
